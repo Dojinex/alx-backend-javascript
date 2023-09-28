@@ -17,7 +17,8 @@ ES6 (ECMAScript 2015) introduced a more structured way to create and work with c
 # How to Define a Class
 In ES6, you can define a class using the class keyword. Here's the basic syntax:
 
-'''
+```
+
 class ClassName {
   constructor() {
     // Constructor method
@@ -26,11 +27,11 @@ class ClassName {
   // Other methods and properties
 }
 
-'''
+```
 
 Example:
 
-'''
+```
 class Person {
   constructor(name, age) {
     this.name = name;
@@ -41,14 +42,15 @@ class Person {
     console.log(`Hello, my name is ${this.name}.`);
   }
 }
-'''
+
+```
 
 ## Adding Methods to a Class
 You can add methods to a class by defining them within the class block. Methods are functions that can be called on instances of the class.
 
 Example:
 
-'''
+```
 class Calculator {
   add(a, b) {
     return a + b;
@@ -59,12 +61,12 @@ class Calculator {
   }
 }
 
-'''
+```
 
 ## Static Methods
 Static methods are called on the class itself, rather than on instances of the class. They are defined using the static keyword.
 
-'''
+```
 class MathHelper {
   static square(x) {
     return x * x;
@@ -74,14 +76,14 @@ class MathHelper {
 // Usage
 const result = MathHelper.square(5); // Returns 25
 
-'''
+```
 
 Static methods are useful for utility functions that are not tied to specific instances.
 
 ## Extending a Class
 You can create a new class that extends another class using the extends keyword. This is known as inheritance, where the child class inherits properties and methods from the parent class.
 
-'''
+```
 class Animal {
   constructor(name) {
     this.name = name;
@@ -101,12 +103,12 @@ class Dog extends Animal {
 const dog = new Dog('Buddy');
 dog.speak(); // Outputs: "Buddy barks."
 
-'''
+```
 
 ## Metaprogramming and Symbols
 Symbols are a new primitive data type introduced in ES6. They can be used to create unique property keys for objects, which is useful for metaprogramming, among other things.
 
-'''
+```
 const symbolKey = Symbol('description');
 
 const obj = {
@@ -115,6 +117,6 @@ const obj = {
 
 console.log(obj[symbolKey]); // Outputs: "This is a symbol property"
 
-'''
+```
 
 Symbols allow you to define properties that are not accidentally overwritten or accessed by other parts of your code.
