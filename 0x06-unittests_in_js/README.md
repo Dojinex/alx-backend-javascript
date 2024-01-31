@@ -3,7 +3,6 @@
 
 UnitTestsBack-endJavaScriptES6NodeJSExpressJSMocha
 
--   By: Johann Kerbrat, Engineering Manager at Uber Works
 
 ![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/90f79a666e174e6c4ffc.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220810T075634Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f2ff450c60a5c6c733f524a2249394e456aee2a88d2e12c705e1a3a9659ff18b)
 
